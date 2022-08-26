@@ -1,6 +1,6 @@
 arr = list(range(1,10))
 
-def binary(arr, x):
+def binary_search(arr, x):
     l = 0
     r = len(arr)-1
     while l < r:
@@ -14,6 +14,6 @@ def binary(arr, x):
     return l
 
 print(arr)
-print(binary(arr, 5))
-print(binary(arr, 5.5))
-print(binary(arr, 4.5))
+print(binary_search(arr, 5))
+print(binary_search(arr, 5.5))
+print(binary_search(arr, 4.5))
