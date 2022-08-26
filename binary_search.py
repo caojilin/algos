@@ -1,5 +1,6 @@
 arr = list(range(1,10))
 
+test_message = "123456"
 def binary_search(arr, x):
     l = 0
     r = len(arr)-1
