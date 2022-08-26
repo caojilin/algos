@@ -1,7 +1,6 @@
 arr = list(range(1,10))
 
 def binary(arr, x):
-    print('search for', x)
     l = 0
     r = len(arr)-1
     while l < r:
