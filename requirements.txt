@@ -13,7 +13,7 @@ pyparsing==2.4.6
 pytest==5.3.5
 python-dateutil==2.8.1
 pytz==2019.3
-scipy==1.4.1
+scipy==1.10.0
 seaborn==0.10.0
 six==1.14.0
 wcwidth==0.1.8
